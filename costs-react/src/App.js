@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import Home from './components/pages/Home'
-import Contacts from './components/pages/Contacts'
-import Company from './components/pages/Company'
-import NewProject from './components/pages/NewProject'
+import Home from './components/pages/Home.js'
+import Contacts from './components/pages/Contacts.js'
+import NewProject from './components/pages/NewProject.js'
+import Company from './components/pages/Company.js'
 
 import Container from './components/layout/Container'
 
@@ -15,7 +15,7 @@ function App() {
         <Link to="/company">Empresa</Link>
         <Link to="/newproject">Novo Projeto</Link>
       </ul>
-      <Container>
+      <Container customClass="min-height">
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/contacts" element={<Contacts/>}/>
