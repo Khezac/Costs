@@ -24,10 +24,10 @@
     },
     {
       "name": "3",
-      "budget": "124123",
+      "budget": "3000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
