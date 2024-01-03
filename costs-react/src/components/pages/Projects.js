@@ -1,6 +1,8 @@
 import Message from '../layout/Message'
 import {useLocation} from 'react-router-dom'
 
+import styles from './Projects.module.css'
+
 function Projects(){
 
     const location = useLocation()
