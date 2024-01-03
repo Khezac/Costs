@@ -1,17 +1,5 @@
 {
-  "projects": [
-    {
-      "name": "teste",
-      "budget": "2115412",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,
