@@ -1,4 +1,4 @@
-import { parse, v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from 'uuid'
 import styles from './Project.module.css'
 import {useParams} from 'react-router-dom'
 import {useState, useEffect} from 'react'
@@ -70,7 +70,7 @@ function Project(){
         const lastServiceCost = lastService.cost
 
         //Start a parameter for validation
-        const newCost = parseFloat(project.cost) + parseFloat(lastService.cost)
+        const newCost = parseFloat(project.cost) + parseFloat(lastServiceCost)
 
         //Validation
         if(newCost > parseFloat(project.budget)){
