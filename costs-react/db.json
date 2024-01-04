@@ -40,13 +40,25 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 20,
+      "cost": 420,
       "services": [
         {
           "name": "serviço barato",
           "cost": "20",
           "description": "faz coisa de serviço barato",
           "id": "f52cb57d-4d2e-42a0-8312-af08652d8948"
+        },
+        {
+          "name": "Contratar design de cenários",
+          "cost": "200",
+          "description": "Criação de cenários para o jogo",
+          "id": "78964333-7b7b-4487-b5f2-498b74af611b"
+        },
+        {
+          "name": "Contratar design de cenários",
+          "cost": "200",
+          "description": "Criação de cenários para o jogo",
+          "id": "cace4fe6-5f38-4099-99a9-62b0753709c3"
         }
       ],
       "id": 4
