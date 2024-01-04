@@ -35,13 +35,20 @@
     },
     {
       "name": "4",
-      "budget": "312412312",
+      "budget": "1000",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 20,
+      "services": [
+        {
+          "name": "serviço barato",
+          "cost": "20",
+          "description": "faz coisa de serviço barato",
+          "id": "f52cb57d-4d2e-42a0-8312-af08652d8948"
+        }
+      ],
       "id": 4
     }
   ],
